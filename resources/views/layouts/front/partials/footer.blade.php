@@ -58,13 +58,12 @@
         <!--/.row -->
         <hr class="mt-13 mt-md-15 mb-7" />
         <div class="d-md-flex align-items-center justify-content-between">
-            <p class="mb-2 mb-lg-0">© 2023 Sandbox. All rights reserved.</p>
+            <p class="mb-2 mb-lg-0">© {{ date('Y') }} Blissway. All rights reserved.</p>
             <nav class="nav social social-white text-md-end">
-                <a href="#"><i class="uil uil-twitter"></i></a>
-                <a href="#"><i class="uil uil-facebook-f"></i></a>
-                <a href="#"><i class="uil uil-dribbble"></i></a>
-                <a href="#"><i class="uil uil-instagram"></i></a>
-                <a href="#"><i class="uil uil-youtube"></i></a>
+                <a href="https://twitter.com/blisswayimmi?s=21&t=7xSQbTCxJkA-ZPKJTyce6g" target="_blank"><i class="uil uil-twitter"></i></a>
+                <a href="https://www.facebook.com/blisswayimmigration.com" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                <a href="https://www.instagram.com/blisswayimmigration/?igshid=MWI4MTIyMDE%3D" target="_blank"><i class="uil uil-instagram"></i></a>
+                <!--a href="#"><i class="uil uil-youtube"></i></a> -->
             </nav>
             <!-- /.social -->
         </div>

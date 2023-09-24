@@ -271,7 +271,7 @@
             <div class="container py-14 py-md-16">
                 <div class="row mb-8">
                     <div class="col-lg-8 mx-auto text-center">
-                        <h2 class="fs-16 text-uppercase text-primary mb-3">Analyze Now</h2>
+                        <h2 class="fs-16 text-uppercase text-primary mb-3"></h2>
                         <h3 class="display-4 mb-0">Blissway Immigration is a leading education consultant in India that has been serving aspiring students since 2013 to study abroad.</h3>
                     </div>
                     <!-- /column -->
@@ -336,13 +336,13 @@
                     <div class="row text-center">
                         <div class="col-xl-11 col-xxl-9 mx-auto">
                             <h2 class="fs-16 text-uppercase text-white mb-3">Ready to Begin Your Global Journey</h2>
-                            <h3 class="display-3 mb-8 px-lg-8 text-white">Unlock <span class="underline-3 style-2 yellow">world-class</span> education, career growth, and personal development opportunities.</h3>
+                            <h3 class="display-3 mb-8 px-lg-8 text-white">Take the <span class="underline-3 style-2 yellow">First Step</span> Towards Your International Journey.</h3>
                         </div>
                         <!-- /column -->
                     </div>
                     <!-- /.row -->
                     <div class="d-flex justify-content-center">
-                        <span><a class="btn btn-white rounded">Request Consultation</a></span>
+                        <span><a href="#" class="btn btn-white rounded" data-bs-toggle="modal" data-bs-target="#modal-signin">Request Consultation</a></span>
                     </div>
                 </div>
                 <!--/.card-body -->
@@ -352,4 +352,52 @@
         <!-- /.container -->
     </section>
     <!-- /section -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-signin" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content text-center">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h2 class="mb-3 text-start">Consultation form</h2>
+                    <p class="lead mb-6 text-start">By requesting a consultation, you'll gain access to:</p>
+                    <form class="text-start mb-3">
+                        <div class="form-floating mb-4">
+                            <input type="text" class="form-control" placeholder="Name" id="loginName">
+                            <label for="loginName">Name</label>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <input type="email" class="form-control" placeholder="Email" id="loginEmail">
+                            <label for="loginEmail">Email</label>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <input type="text" class="form-control" placeholder="Subject" id="subject">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <textarea id="textareaExample" class="form-control" placeholder="Textarea" style="height: 150px" required></textarea>
+                            <label for="textareaExample">Textarea</label>
+                        </div>
+                        <!-- /.form-floating -->
+                        <a class="btn btn-primary rounded-pill btn-login w-100 mb-2">Sign In</a>
+                    </form>
+                    <!-- /form -->
+                    <p class="mb-1"><a href="#" class="hover">Forgot Password?</a></p>
+                    <p class="mb-0">Don't have an account? <a href="#" data-bs-target="#modal-signup" data-bs-toggle="modal" data-bs-dismiss="modal" class="hover">Sign up</a></p>
+                    <div class="divider-icon my-4">or</div>
+                    <nav class="nav social justify-content-center text-center">
+                        <a href="#" class="btn btn-circle btn-sm btn-google"><i class="uil uil-google"></i></a>
+                        <a href="#" class="btn btn-circle btn-sm btn-facebook-f"><i class="uil uil-facebook-f"></i></a>
+                        <a href="#" class="btn btn-circle btn-sm btn-twitter"><i class="uil uil-twitter"></i></a>
+                    </nav>
+                    <!--/.social -->
+                </div>
+                <!--/.modal-content -->
+            </div>
+            <!--/.modal-body -->
+        </div>
+        <!--/.modal-dialog -->
+    </div>
+    <!--/.modal -->
 @endsection
