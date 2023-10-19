@@ -20,36 +20,27 @@
             <!-- /column -->
             <div class="col-md-4 col-lg-2 offset-lg-2">
                 <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Need Help?</h4>
-                    <ul class="list-unstyled text-reset mb-0">
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Get Started</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
+                    <h4 class="widget-title text-white mb-3">GOHANA OFFICE</h4>
+                    <address>Behind P.G. College, near Jeet Hospital (Dr. Veer Singh Malik) Gohana , Panipat, Haryana.</address>
+                    783 757 7014
                 </div>
                 <!-- /.widget -->
             </div>
             <!-- /column -->
             <div class="col-md-4 col-lg-2">
                 <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Learn More</h4>
-                    <ul class="list-unstyled  mb-0">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Story</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Features</a></li>
-                    </ul>
+                    <h4 class="widget-title text-white mb-3">CHANDIGARH OFFICE</h4>
+                    <address>S.C.O 367, 368 second floor, 35B, Chandigarh</address>
+                    905 687 7014
                 </div>
                 <!-- /.widget -->
             </div>
             <!-- /column -->
             <div class="col-md-4 col-lg-2">
                 <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Get in Touch</h4>
-                    <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
-                    <a href="mailto:first.last@email.com">info@email.com</a><br /> 00 (123) 456 78 90
+                    <h4 class="widget-title text-white mb-3">Canada Office</h4>
+                    <address>1300 Steeles AVE E UNIT#214, Brampton, ON L6T 1A2, Canada</address>
+                    <a href="mailto:blisswayimmigration@gmail.com">blisswayimmigration[at]gmail.com</a><br /> +1 (204) 952 7014
                 </div>
                 <!-- /.widget -->
             </div>

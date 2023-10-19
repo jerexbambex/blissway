@@ -12,7 +12,7 @@
                     <h1 class="display-1 text-white fs-60 mb-4 px-md-15 px-lg-0">Empower Your Global Journey Through <span class="underline-3 style-2 yellow">Blissway Immigration</span></h1>
                     <p class="lead fs-24 text-white lh-sm mb-7 mx-md-13 mx-lg-10">Unlock Boundless Opportunities Through Immigration.</p>
                     <div>
-                        <a class="btn btn-white rounded mb-10 mb-xxl-5">Get Started</a>
+                        <a class="btn btn-white rounded mb-10 mb-xxl-5" href="{{ route('contact.show') }}">Get Started</a>
                     </div>
                 </div>
                 <!-- /column -->
@@ -316,7 +316,7 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <a href="#" class="btn btn-primary btn-icon btn-icon-end mt-2">Apply Now <i class="uil uil-arrow-up-right"></i></a>
+                            <a href="{{ route('contact.show') }}" class="btn btn-primary btn-icon btn-icon-end mt-2">Apply Now <i class="uil uil-arrow-up-right"></i></a>
                         </div>
                     </div>
                     <!--/.row -->
@@ -356,12 +356,19 @@
 
     <!-- Modal -->
     <div class="modal fade" id="modal-signin" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content text-center">
                 <div class="modal-body">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <h2 class="mb-3 text-start">Consultation form</h2>
                     <p class="lead mb-6 text-start">By requesting a consultation, you'll gain access to:</p>
+                    <ul class="icon-list bullet-bg bullet-soft-green text-start">
+                        <li><span><i class="uil uil-check"></i></span><span>Personalized guidance.</span></li>
+                        <li><span><i class="uil uil-check"></i></span><span>Expert insights.</span></li>
+                        <li><span><i class="uil uil-check"></i></span><span>Clear pathways.</span></li>
+                        <li><span><i class="uil uil-check"></i></span><span>Opportunity to explore.</span></li>
+                    </ul>
+
                     <form class="text-start mb-3">
                         <div class="form-floating mb-4">
                             <input type="text" class="form-control" placeholder="Name" id="loginName">
@@ -380,18 +387,9 @@
                             <label for="textareaExample">Textarea</label>
                         </div>
                         <!-- /.form-floating -->
-                        <a class="btn btn-primary rounded-pill btn-login w-100 mb-2">Sign In</a>
+                        <a class="btn btn-primary rounded-pill btn-login w-100 mb-2">Send request</a>
                     </form>
                     <!-- /form -->
-                    <p class="mb-1"><a href="#" class="hover">Forgot Password?</a></p>
-                    <p class="mb-0">Don't have an account? <a href="#" data-bs-target="#modal-signup" data-bs-toggle="modal" data-bs-dismiss="modal" class="hover">Sign up</a></p>
-                    <div class="divider-icon my-4">or</div>
-                    <nav class="nav social justify-content-center text-center">
-                        <a href="#" class="btn btn-circle btn-sm btn-google"><i class="uil uil-google"></i></a>
-                        <a href="#" class="btn btn-circle btn-sm btn-facebook-f"><i class="uil uil-facebook-f"></i></a>
-                        <a href="#" class="btn btn-circle btn-sm btn-twitter"><i class="uil uil-twitter"></i></a>
-                    </nav>
-                    <!--/.social -->
                 </div>
                 <!--/.modal-content -->
             </div>
